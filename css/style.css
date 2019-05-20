@@ -7,3 +7,63 @@ body{cursor: default; font: 14px 'Roboto', sans-serif; margin: 0; width: 100%;ba
 
 html.sta-noScroll,
 html.sta-noScroll body{overflow:hidden;}
+
+.tpl-cabecera-pn {
+    background-position: left -200px bottom -200px;
+    background-repeat: no-repeat;
+    padding: 50px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.tpl-cabecera-pn .sta-cabecera-pn_max {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.tpl-cabecera-pn .sta-cabecera-pn_title1 {
+    font: 18px 'Montserrat', sans-serif;
+}
+ 
+.tpl-cabecera-pn .sta-cabecera-pn_title2 {
+    font: 40px 'Aleo', sans-serif;
+    margin: 0 15px 20px;
+}
+
+.tpl-cabecera-pn .sta-cabecera-pn_title3 {
+    font: 21px 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+@media (min-width: 801px) {
+    .tpl-cabecera-pn {
+        background-position: center bottom -650px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 60px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .tpl-cabecera-pn .sta-cabecera-pn_max {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .tpl-cabecera-pn .sta-cabecera-pn_title1 {
+        font: 21px 'Montserrat', sans-serif;
+        
+    }
+     
+    .tpl-cabecera-pn .sta-cabecera-pn_title2 {
+        font: 41px 'Aleo', sans-serif;
+        margin: 5px 15px 20px;
+    }
+    
+    .tpl-cabecera-pn .sta-cabecera-pn_title3 {
+        font: 600 21px 'Montserrat', sans-serif;
+        
+    }
+
+}
+
