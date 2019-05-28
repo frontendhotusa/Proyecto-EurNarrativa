@@ -14,14 +14,12 @@ html.sta-noScroll body{overflow:hidden;}
 .tpl-cabecera-pn .sta-cabecera-pn_title1 {font: 18px 'Montserrat', sans-serif;}
 .tpl-cabecera-pn .sta-cabecera-pn_title2 {font: 40px 'Aleo', sans-serif;margin: 0 15px 20px;letter-spacing: .06em;}
 .tpl-cabecera-pn .sta-cabecera-pn_title3 {font:600 21px 'Montserrat', sans-serif;}
-
 @media (min-width: 801px) {
     .tpl-cabecera-pn {background-position: center bottom -265px;background-size: cover;padding: 60px 10px;}
     .tpl-cabecera-pn .sta-cabecera-pn_max {max-width: 450px;}
     .tpl-cabecera-pn .sta-cabecera-pn_title1 {font-size: 21px;}
     .tpl-cabecera-pn .sta-cabecera-pn_title2 {font-size: 41px;margin: 5px 15px 5px;}
 }
-
 /*modulo 13 ganadores*/
 .tpl-ganadores-pn {text-align: center;background: #fff;padding: 30px 15px 105px;}
 .tpl-ganadores-pn .sta-ganadores-pn_premio {border: 1px solid #bec7c9;border-radius: 10px;width: 220px;margin: 0 auto 25px;}
@@ -38,7 +36,6 @@ html.sta-noScroll body{overflow:hidden;}
 color: #9c8c65;}
 .tpl-ganadores-pn .sta-ganadores-pn_table {display: table;width: 100%;height: 82px;}
 .tpl-ganadores-pn .sta-ganadores-pn_cell {display: table-cell;font: bold 14px 'Montserrat', 'sans-serif';letter-spacing:.05em;color: #1e2c34;vertical-align: middle;padding: 5px 14px;}
-
 @media (min-width: 601px) {
     .tpl-ganadores-pn {padding: 60px 30px 70px;}
     .tpl-ganadores-pn .sta-ganadores-pn_premio {display: inline-block;vertical-align: top;margin: 20px 0 0 20px;}
@@ -58,96 +55,80 @@ color: #9c8c65;}
     .tpl-ganadores-pn .sta-ganadores-pn_premio:nth-of-type(4n+1){margin-left: 0;}}
 
 body.regla:after {content: "";position: fixed;top: 0;bottom: 0;right: 50%;border-right: 1px red solid;z-index: 999999;}
-
 /*modulo 16 noticia*/
-.tpl-noticia-pn{
-    color: #656464;
-    text-align: justify;
-    margin: 0 auto;
-    background: #fff;}
-.tpl-noticia-pn .sta-noticia-pn_max {
-    margin: 20px 0 100px;} 
-.tpl-noticia-pn .sta-noticia-pn_enlace{
-    font: 13px 'Montserrat', 'sans-serif';
-    letter-spacing: .03em;
-    text-decoration: none;
-    border-bottom: 2px #cdcccc solid;
-    margin-left: 15px;
-    margin-right: 15px;}
-.tpl-noticia-pn .sta-noticia-pn_flecha{
-    padding: 30px 0;
-    position: relative;
-    margin-left: 15px;
-    margin-right: 15px;}
-.tpl-noticia-pn .sta-noticia-pn_flecha_i {
-    border: 1px #9c8c65 solid;
-    border-radius: 50%;
-    color: #9c8c65;
-    display: block;
-    position: absolute;
-    top: 19px;
-    left: 0;
-    width: 22px;
-    height: 22px;}
-.tpl-noticia-pn .sta-noticia-pn_flecha_d {
-    border: 1px #9c8c65 solid;
-    border-radius: 50%;
-    color: #9c8c65;
-    display: block;
-    position: absolute;
-    top: 19px;
-    right: 0;
-    width: 22px;
-    height: 22px;}
-.tpl-noticia-pn .sta-noticia-pn_flecha_i::before {
-    content: "\\";
-    font: 10px Icons;
-    position: absolute;
-    left: 5px;
-    top: 6px;}
-.tpl-noticia-pn .sta-noticia-pn_flecha_d::before {
-    content: "\e000";
-    font: 10px Icons;
-    position: absolute;
-    right: 5px;
-    top: 6px;}
-.tpl-noticia-pn header{
-    font: bold 18px 'Montserrat', 'sans-serif';
-    color: #9c8c65;
-    text-align: left;
-    letter-spacing: .03em;
-    margin-left: 15px;
-    margin-right: 15px;}
-.tpl-noticia-pn section{
-    font: 13px 'Aleo', 'sens-serif';
-    padding: 25px 0;
-    letter-spacing: .05em;
-    margin-left: 15px;
-    margin-right: 15px;}
-.tpl-noticia-pn footer{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 290px;}
-.tpl-noticia-pn .sta-noticia-pn_max article footer {
-   margin-left: 0;}
-
+.tpl-noticia-pn{color: #656464;text-align: justify;background: #fff;padding: 20px 0 105px;font: 13px/20px 'Aleo', 'sens-serif';}
+.tpl-noticia-pn .sta-noticia-pn_max {max-width: 550px;margin: 0 auto;}
+.tpl-noticia-pn .sta-noticia-pn_content {padding: 0 20px;}
+.tpl-noticia-pn .sta-noticia-pn_enlace{font: 13px 'Montserrat', 'sans-serif';letter-spacing: .03em;text-decoration: none;border-bottom: 2px #cdcccc solid;}
+.tpl-noticia-pn .sta-noticia-pn_flecha{margin: 15px 0;overflow: hidden;}
+.tpl-noticia-pn .sta-noticia-pn_flecha a[href=""]{display: none;}
+.tpl-noticia-pn .sta-noticia-pn_flecha a:before{border: 1px #9c8c65 solid;border-radius: 50%;color: #9c8c65;width: 22px;height: 22px;display: inline-block;vertical-align: top;text-align: center;text-decoration: none;font: 10px/22px Icons;}
+.tpl-noticia-pn .sta-noticia-pn_flecha_i {float: left;}
+.tpl-noticia-pn .sta-noticia-pn_flecha_d {float: right;}
+.tpl-noticia-pn .sta-noticia-pn_flecha_i:before {content: "\\";}
+.tpl-noticia-pn .sta-noticia-pn_flecha_d:before {content: "\e000";}
+.tpl-noticia-pn header{font: bold 18px/26px 'Montserrat', 'sans-serif';color: #9c8c65;text-align: left;letter-spacing: .03em;padding: 0 20px;margin-bottom: 20px;}
+.tpl-noticia-pn section{padding: 0 20px 30px;letter-spacing: .05em;}
+.tpl-noticia-pn footer{background-repeat: no-repeat;background-size: cover;background-position: bottom;height: 290px;}
 @media (min-width: 801px) {
-    .tpl-noticia-pn {
-        padding: 30px 15px 65px;} 
-    .tpl-noticia-pn .sta-noticia-pn_max {
-        max-width: 550px;
-        margin: 0 auto;
-        position: relative;}
-    .tpl-noticia-pn footer{
-        background-position: top;}
-    .tpl-noticia-pn .sta-noticia-pn_flecha{
-        position: unset;}
-    .tpl-noticia-pn .sta-noticia-pn_flecha_i {
-        left: -85px;
-        top: 50%;}
-    .tpl-noticia-pn .sta-noticia-pn_flecha_d {
-        right: -85px;
-        top: 50%;}
+    .tpl-noticia-pn {padding: 30px 20px 65px;}
+    .tpl-noticia-pn .sta-noticia-pn_max {position: relative;padding: 0 120px;}
+    .tpl-noticia-pn .sta-noticia-pn_flecha {margin:0;}
+    .tpl-noticia-pn .sta-noticia-pn_flecha a{position: absolute;top: 50%;float: none;text-align: center;padding: 50px 20px;margin-top: -62px;}
+    .tpl-noticia-pn .sta-noticia-pn_flecha_i {left: 0;}
+    .tpl-noticia-pn .sta-noticia-pn_flecha_d {right: 0;}
+    .tpl-noticia-pn .sta-noticia-pn_content{padding: 0;}
+    .tpl-noticia-pn header {padding: 0;margin-top: 25px;}
+    .tpl-noticia-pn section {padding: 0 0 30px; }
+}
+/* modulo 6 mas informacion*/
+.tpl-masinfo-pn {
+    background: #9c8c65;
+    color: #fff;
+    font: 12px 'Montserrat', 'sans-serif';
+    text-align: right;
+    letter-spacing: 0.05em;
+    padding-right: 20px;
+}
+.tpl-masinfo-pn .sta-masinfo-pn_max  {
+    display: table;
+    margin: 0 auto;
+}
+.tpl-masinfo-pn .sta-masinfo-pn_cell  {
+    display: table-cell;
+    padding: 25px 5px 20px 20px;
+    position: relative;
+}
+.tpl-masinfo-pn .sta-masinfo-pn_cell a {
+    font: bold 12px 'Montserrat', 'sans-serif';
+    text-decoration: underline;
+    color: #fff
+}
+.tpl-masinfo-pn .sta-masinfo-pn_img  {
+    display: table-cell;
+    background-image: url('../images/lapiz.png');
+    width: 60px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+@media (min-width: 601px) {
+    .tpl-masinfo-pn {
+        margin-top: 25px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+    .tpl-masinfo-pn .sta-masinfo-pn_cell a {
+        font-size: 14px;
+    }
+    .tpl-masinfo-pn .sta-masinfo-pn_img  {
+        position: absolute;
+        top: 0px;
+        width: 70px;
+        height: 100px;
+        background-image: url(../images/lapizdesk.png);
+        
+        
+    }
 }
