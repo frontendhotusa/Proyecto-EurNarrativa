@@ -85,32 +85,30 @@ body.regla:after {content: "";position: fixed;top: 0;bottom: 0;right: 50%;border
 .tpl-masinfo-pn {
     background: #9c8c65;
     color: #fff;
-    font: 12px 'Montserrat', 'sans-serif';
-    text-align: right;
+    font: 12px/15px 'Montserrat', 'sans-serif';
+    text-align: center;
     letter-spacing: 0.05em;
-    padding-right: 20px;
+    
 }
 .tpl-masinfo-pn .sta-masinfo-pn_max  {
-    display: table;
-    margin: 0 auto;
+    padding: 25px 70px 20px 30px;
+    
 }
-.tpl-masinfo-pn .sta-masinfo-pn_cell  {
-    display: table-cell;
-    padding: 25px 5px 20px 20px;
-    position: relative;
+.tpl-masinfo-pn .sta-masinfo-pn_content  {
 }
-.tpl-masinfo-pn .sta-masinfo-pn_cell a {
+.tpl-masinfo-pn .sta-masinfo-pn_content a {
     font: bold 12px 'Montserrat', 'sans-serif';
     text-decoration: underline;
     color: #fff
 }
-.tpl-masinfo-pn .sta-masinfo-pn_img  {
-    display: table-cell;
-    background-image: url('../images/lapiz.png');
-    width: 60px;
+.tpl-masinfo-pn img  {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 50px;
     height: 70px;
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: unset;
 }
 @media (min-width: 601px) {
     .tpl-masinfo-pn {
@@ -119,15 +117,14 @@ body.regla:after {content: "";position: fixed;top: 0;bottom: 0;right: 50%;border
         padding-bottom: 8px;
         font-size: 14px;
     }
-    .tpl-masinfo-pn .sta-masinfo-pn_cell a {
+    .tpl-masinfo-pn .sta-masinfo-pn_conatent a {
         font-size: 14px;
     }
-    .tpl-masinfo-pn .sta-masinfo-pn_img  {
+    .tpl-masinfo-pn img  {
         position: absolute;
         top: 0px;
-        width: 70px;
-        height: 100px;
-        background-image: url(../images/lapizdesk.png);
+        
+       
         
         
     }
