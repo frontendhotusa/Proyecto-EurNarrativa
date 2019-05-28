@@ -37,12 +37,12 @@ html.sta-noScroll body{overflow:hidden;}
 
 /*.tpl-noticia-pn*/
 .tpl-noticia-pn{padding: 40px 40px 95px;background: #fff; color: #000;}
-.tpl-noticia-pn .sta-noticia-pn_news{position: relative; background: #f3f1e8;width: 205px; font: 13px/16px "Montserrat"; margin:0 auto 28px;padding:200px 20px 10px; letter-spacing: 0.03em;}
-.tpl-noticia-pn .sta-noticia-pn_news:last-of-type{margin-bottom: 0}
+.tpl-noticia-pn .sta-noticia-pn_news{position: relative; background: #f3f1e8;width: 205px; font: 13px/16px "Montserrat"; margin:0 auto 28px;padding:200px 20px 10px; letter-spacing: 0.03em; vertical-align: top;}
 .tpl-noticia-pn .sta-noticia-pn_news .sta-noticia-pn_image{height: 185px;background-repeat: no-repeat; background-position: center; background-size: cover;position: absolute; top: 0; left: 0; right: 0;}
 .tpl-noticia-pn .sta-noticia-pn_news .sta-noticia-pn_title{margin-bottom: 10px;}
 .tpl-noticia-pn .sta-noticia-pn_news .sta-noticia-pn_enlace{font-size: 11px; text-align: right;}
 .tpl-noticia-pn .sta-noticia-pn_news .sta-noticia-pn_enlace a{color: #656464;}
+
 
 .tpl-noticia-pn .sta-noticia-pn_more.sta-disable{display: none;}
 .tpl-noticia-pn .sta-noticia-pn_more{font: 16px "Montserrat"; margin-top: 20px;}
@@ -53,25 +53,22 @@ html.sta-noScroll body{overflow:hidden;}
 
 @media (min-width: 601px){
     .tpl-noticia-pn{padding: 47px 40px 60px;}
-    .tpl-noticia-pn .sta-noticia-pn_max {margin: 0 auto;}
-    .tpl-noticia-pn .sta-noticia-pn_max {max-width: 810px; padding-left: 37px;}
-    .tpl-noticia-pn .sta-noticia-pn_max .sta-noticia-pn_container{ min-height: 620px;}
+    .tpl-noticia-pn .sta-noticia-pn_max {margin: 0 auto; max-width: 810px; padding-left: 37px;}
+    .tpl-noticia-pn .sta-noticia-pn_max .sta-noticia-pn_container{ min-hei_ght: 620px;}
     .tpl-noticia-pn .sta-noticia-pn_max .sta-noticia-pn_container .sta-noticia-pn_news{display: inline-block; margin-bottom: 22px; margin-right: 20px;}
 }
-
-
 
 /*fin.tpl-noticia-pn*/
 
 /* .tpl-home-pn */
 
 .tpl-home-pn{background-repeat: no-repeat;background-size: cover; background-position: center;padding: 40px 40px 60px;color: #fff;text-align: center; font: 18px/20px "Montserrat";counter-reset: section;}
-.tpl-home-pn .sta-home-pn_text span{font: bold 40px/46px "Aleo";display: block; letter-spacing: 0.06em; margin-bottom: 25px;}
+.tpl-home-pn .sta-home-pn_text span{font: bold 40px/46px "Aleo"; display: block; letter-spacing: 0.06em; margin-bottom: 25px;}
 .tpl-home-pn ul li div:before{content: counter(section) '. ';counter-increment: section;}
 .tpl-home-pn .sta-home-pn_container li{margin-bottom: 30px; font: bold 18px "Aleo"; letter-spacing: 0.045em;}
 .tpl-home-pn .sta-home-pn_container .sta-home-pn_title{width: 150px; margin: 0 auto;}
 .tpl-home-pn .sta-home-pn_container li:last-of-type{margin-bottom: 0;}
-.tpl-home-pn .sta-home-pn_container li svg{fill:  #fff; height: 70px; width: 70px; }
+.tpl-home-pn .sta-home-pn_container li svg{fill:#fff; height: 70px; width: 70px; }
 .tpl-home-pn .sta-home-pn_containerbutton{margin-top: 40px;}
 .tpl-home-pn .sta-home-pn_containerbutton .sta-home-pn_button{border-radius: 15px; padding: 6px 15px; background: #f6f3e0; color: #000;font: bold 12px/15px "Montserrat"; letter-spacing: 0.016em; margin: 0 auto;border: solid 2px#f6f3e0;text-decoration: none;display:inline-block;box-shadow: 0 8px 22px -3px #000;}
 .tpl-home-pn .sta-home-pn_containerbutton .sta-home-pn_button:hover{background: transparent; color: #f6f3e0;transition: .3s;}
