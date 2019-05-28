@@ -4,7 +4,6 @@ body{cursor: default; font: 14px 'Roboto', sans-serif; margin: 0; width: 100%;ba
 .sta-inputFixed{position:fixed;left:-999px;top:0;height:0;width:0;opacity:0}
 html.sta-noScroll,
 html.sta-noScroll body{overflow:hidden;}
-<<<<<<< HEAD
 /*modulo 8 cabecera*/ 
 .tpl-cabecera-pn {background-position: left -200px bottom -200px;background-repeat: no-repeat;padding: 50px 10px;text-align: center;color: #fff;}
 .tpl-cabecera-pn .sta-cabecera-pn_max {max-width: 250px;margin: 0 auto;}
@@ -82,8 +81,7 @@ body.regla:after {content: "";position: fixed;top: 0;bottom: 0;right: 50%;border
     font: 12px/15px 'Montserrat', 'sans-serif';
     text-align: center;
     letter-spacing: 0.05em;
-    
-=======
+}
 
 /*tpl-header-pn*/
 .tpl-header-pn{background: #1e2c34;padding: 10px 15px;}
@@ -226,13 +224,10 @@ body.regla:after{content:'';position: fixed;left:50%; top: 0;bottom: 0; border-l
     .tpl-text-pn .sta-text-pn_max {max-width: 690px; column-count: 2;column-gap: 45px;  display: block; margin: auto}
     .tpl-text-pn.v2{padding: 60px 70px;}
     .tpl-text-pn.v2 .sta-text-pn_max {column-count: auto;}
->>>>>>> d66ad2ac27aabc24c4071257d1a9dc1616c6db4d
 }
 .tpl-masinfo-pn .sta-masinfo-pn_max  {
     padding: 25px 70px 20px 30px;
     
-}
-.tpl-masinfo-pn .sta-masinfo-pn_content  {
 }
 .tpl-masinfo-pn .sta-masinfo-pn_content a {
     font: bold 12px 'Montserrat', 'sans-serif';
