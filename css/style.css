@@ -75,14 +75,19 @@ body.regla:after {content: "";position: fixed;top: 0;bottom: 0;right: 50%;border
     .tpl-noticia2-pn header {padding: 0;margin-top: 25px;}
     .tpl-noticia2-pn section {padding: 0 0 30px; }}
 /* modulo 6 mas informacion*/
-.tpl-masinfo-pn {
-    background: #9c8c65;
-    color: #fff;
-    font: 12px/15px 'Montserrat', 'sans-serif';
-    text-align: center;
-    letter-spacing: 0.05em;
+.tpl-masinfo-pn {background: #9c8c65;color: #fff;font: 12px/15px 'Montserrat', 'sans-serif';text-align: right;letter-spacing: 0.05em;overflow: hidden;}
+.tpl-masinfo-pn .sta-masinfo-pn_max  {padding: 25px 20px; position: relative; }
+.tpl-masinfo-pn .sta-masinfo-pn_content {padding-right: 60px;}
+.tpl-masinfo-pn .sta-masinfo-pn_content a {font-weight: bold ;text-decoration: underline;color: #fff}
+.tpl-masinfo-pn img  {position: absolute;right: -1px;bottom:-33px;max-width: 78px;max-height: 98px;}
+.tpl-masinfo-pn img[src=""]{display: none;}
+.tpl-masinfo-pn img[src=""] ~ .sta-masinfo-pn_content{padding-right: 0;text-align: center;}
+@media (min-width: 801px) {
+    .tpl-masinfo-pn {font-size: 14px;overflow: visible;}
+    .tpl-masinfo-pn .sta-masinfo-pn_max  {max-width: 690px;margin: 0 auto;padding-bottom: 30px;}
+    .tpl-masinfo-pn .sta-masinfo-pn_content {padding-right: 140px;}
+    .tpl-masinfo-pn img  {position: absolute;bottom:0; right: 84px;}
 }
-
 /*tpl-header-pn*/
 .tpl-header-pn{background: #1e2c34;padding: 10px 15px;}
 .tpl-header-pn .sta-header-pn_max{display: table;width: 100%;}
@@ -224,41 +229,4 @@ body.regla:after{content:'';position: fixed;left:50%; top: 0;bottom: 0; border-l
     .tpl-text-pn .sta-text-pn_max {max-width: 690px; column-count: 2;column-gap: 45px;  display: block; margin: auto}
     .tpl-text-pn.v2{padding: 60px 70px;}
     .tpl-text-pn.v2 .sta-text-pn_max {column-count: auto;}
-}
-.tpl-masinfo-pn .sta-masinfo-pn_max  {
-    padding: 25px 70px 20px 30px;
-    
-}
-.tpl-masinfo-pn .sta-masinfo-pn_content a {
-    font: bold 12px 'Montserrat', 'sans-serif';
-    text-decoration: underline;
-    color: #fff
-}
-.tpl-masinfo-pn img  {
-    position: absolute;
-    right: 0;
-    top: 10px;
-    width: 50px;
-    height: 70px;
-    background-repeat: no-repeat;
-    background-size: unset;
-}
-@media (min-width: 601px) {
-    .tpl-masinfo-pn {
-        margin-top: 25px;
-        padding-top: 5px;
-        padding-bottom: 8px;
-        font-size: 14px;
-    }
-    .tpl-masinfo-pn .sta-masinfo-pn_conatent a {
-        font-size: 14px;
-    }
-    .tpl-masinfo-pn img  {
-        position: absolute;
-        top: 0px;
-        
-       
-        
-        
-    }
 }
