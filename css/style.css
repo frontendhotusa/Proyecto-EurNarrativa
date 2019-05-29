@@ -230,43 +230,6 @@ body.regla:after{content:'';position: fixed;left:50%; top: 0;bottom: 0; border-l
     .tpl-text-pn.v2{padding: 60px 70px;}
     .tpl-text-pn.v2 .sta-text-pn_max {column-count: auto;}
 }
-.tpl-masinfo-pn .sta-masinfo-pn_max  {
-    padding: 25px 70px 20px 30px;
-    
-}
-.tpl-masinfo-pn .sta-masinfo-pn_content a {
-    font: bold 12px 'Montserrat', 'sans-serif';
-    text-decoration: underline;
-    color: #fff
-}
-.tpl-masinfo-pn img  {
-    position: absolute;
-    right: 0;
-    top: 10px;
-    width: 50px;
-    height: 70px;
-    background-repeat: no-repeat;
-    background-size: unset;
-}
-@media (min-width: 601px) {
-    .tpl-masinfo-pn {
-        margin-top: 25px;
-        padding-top: 5px;
-        padding-bottom: 8px;
-        font-size: 14px;
-    }
-    .tpl-masinfo-pn .sta-masinfo-pn_conatent a {
-        font-size: 14px;
-    }
-    .tpl-masinfo-pn img  {
-        position: absolute;
-        top: 0px;
-        
-       
-        
-        
-    }
-}
 
 /*.tpl-ideaconcurso-pn*/
 .tpl-ideaconcurso-pn{background: #f4f1e8;padding: 35px 25px;text-align: center;font:bold 18px "Myriad Pro";color: #9c8c65;}
