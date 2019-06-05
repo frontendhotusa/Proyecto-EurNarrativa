@@ -95,7 +95,7 @@ html.sta-noScroll body{overflow:hidden;}
   .tpl-header2-pn .sta-header2-pn_contentNav .sta-header2-pn_navDesk li a{text-decoration: none;padding:12px 16px;display: block;}
   .tpl-header2-pn .sta-header2-pn_abs .sta-header2-pn_sendP{width: 200px;}
   .tpl-header2-pn .sta-header2-pn_abs .sta-header2-pn_cell .sta-header2-pn_button {position: static;text-align: right;}
-  .tpl-header2-pn .sta-header2-pn_abs .sta-header2-pn_cell .sta-header2-pn_button a{margin-bottom: 0}
+  .tpl-header2-pn .sta-header2-pn_abs .sta-header2-pn_cell .sta-header2-pn_button a{margin-bottom: 0;}
   .tpl-header2-pn .sta-header2-pn_convocatoria{font-size: 13px;line-height:22px;}
   .tpl-header2-pn .sta-header2-pn_convocatoria .sta-header2-pn_open,
   .tpl-header2-pn .sta-header2-pn_convocatoria .sta-header2-pn_close{padding: 9px 10px;-webkit-box-shadow:inset 0px 31px 16px -30px rgba(0,0,0,.4);-ms-box-shadow:inset 0px 31px 16px -30px rgba(0,0,0,.4);-moz-box-shadow:inset 0px 31px 16px -30px rgba(0,0,0,.4);-o-box-shadow:inset 0px 31px 16px -30px rgba(0,0,0,.4);box-shadow:inset 0px 31px 16px -30px rgba(0,0,0,.4);}
